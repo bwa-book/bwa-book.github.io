@@ -1,0 +1,11 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+  excerpt:
+  image:
+
+- title: Playgrounds
+  url: https://github.com/stg-book/playgrounds
+  excerpt:
+  image:
