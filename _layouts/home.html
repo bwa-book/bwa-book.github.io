@@ -9,6 +9,7 @@
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
     {% endif %}
     {% include open-graph.html %}
+    {% include google-analytics.html %}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
@@ -50,9 +51,34 @@
     <div class="page-lead" style="background-image:url(/images/hero-image.png)">
       <div class="wrap page-lead-content">
         <h1>{{ site.title }}</h1>
-        <a href="/about/" class="btn-inverse">About the Book</a> &nbsp; or &nbsp; <a href="https://github.com/stg-book/playgrounds" class="btn-inverse">Playgrounds on GitHub</a>
+        <a href="/buy/" class="btn-inverse">Buy the Book</a> &nbsp; or &nbsp; <a href="https://github.com/bwa-book/sample-code" class="btn-inverse">Example Code on GitHub</a>
       </div><!-- /.page-lead-content -->
     </div>
+
+    <div><p></p></div>
+
+    <div id="main" role="main">
+      <div class="wrap">
+        <div class="inner-wrap">
+          <nav class="toc"></nav><!-- /.toc -->
+          <div id="content" class="page-content" itemprop="articleBody">
+            {{ content }}
+            <hr />
+            <footer class="page-footer">
+              {% if page.categories %}{% include page-author.html %}{% endif %}
+              {% if page.share != false %}{% include share-this.html %}{% endif %}
+              {% include page-meta.html %}
+            </footer><!-- /.footer -->
+            <aside>
+              {% if page.comments == true %}{% include comments.html %}{% endif %}
+            </aside>
+          </div><!-- /.content -->
+        </div><!-- /.inner-wrap -->
+        <div class="ads">
+          {% include book-cover.html %}
+        </div><!-- /.ads -->
+      </div><!-- ./wrap -->
+    </div><!-- /#main -->
 
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>

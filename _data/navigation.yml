@@ -1,11 +1,11 @@
 # Site navigation links
 
-- title: About
-  url: /about/
+- title: Buy
+  url: /buy/
   excerpt:
   image:
 
-- title: Playgrounds
-  url: https://github.com/stg-book/playgrounds
+- title: Sample Code
+  url: https://github.com/bwa-book/sample-code
   excerpt:
   image:

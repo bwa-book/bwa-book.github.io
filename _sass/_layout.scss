@@ -213,22 +213,12 @@
 		margin-top: $gutter;
 		margin-left: -$gutter;
 		margin-right: -$gutter;
-		padding: 10px 0 20px;
+		padding: 0 0 0;
 		background: lighten($border-color,5);
 		@include media($medium) {
 			@include span-columns(3);
 			margin-left: 0;
 			margin-right: 0;
-		}
-		&:after {
-			content: 'Advertisement';
-			position: absolute;
-			bottom: 0;
-			width: 100%;
-			text-align: center;
-			display: block;
-			@include font-size(9,no);
-			font-family: $alt-font;
 		}
 		ins {
 			border-width: 0;
@@ -282,7 +272,7 @@
 	}
 }
 // make image flush with edges on small screens
-.page-image {	
+.page-image {
 	position: relative;
 	margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;
@@ -306,7 +296,7 @@
 	}
 }
 // breadcrumbs
-.breadcrumbs { 
+.breadcrumbs {
 	@include row;
 	margin-top: $gutter;
 	@include font-size(10,no);
