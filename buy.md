@@ -20,6 +20,12 @@ Build watchOS Apps can be purchased from most major online book retailers.
 
 [Kindle](http://www.amazon.co.uk/gp/product/B01929VVGQ/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B01929VVGQ&linkCode=as2&tag=buiwatapp-21)
 
+### Amazon Deutschland
+
+[Paperback](http://www.amazon.de/gp/product/0134175174/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=0134175174&linkCode=as2&tag=buiwatapp00-21)
+
+[Kindle](http://www.amazon.de/gp/product/B01929VVGQ/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B01929VVGQ&linkCode=as2&tag=buiwatapp00-21)
+
 
 ### Peachpit Press
 
