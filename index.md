@@ -16,7 +16,7 @@ The Apple Watch is different. We never needed the other devices in the same way 
 1. Creating a WatchKit Project
 2. Anatomy of a watchOS App
 3. Implementing Navigation
-4. Exploring Controls ([Sample chapter](http://www.peachpit.com/content/images/9789780134174/samplepages/9780134175171.pdf))
+4. Exploring Controls ([Sample chapter](http://ptgmedia.pearsoncmg.com/images/9780134175171/samplepages/9780134175171.pdf))
 5. Designing Your App's User Interface
 6. Building Your App's User Interface
 7. Working With Complications
